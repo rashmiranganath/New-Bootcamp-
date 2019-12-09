@@ -181,7 +181,9 @@ if ( "a" == "a"){
 console.log("you loose")
 ```
 Answer -
+
 // yippee you win
+
 // you loose 
 
 `Here we have a condition which is true so the statement in the if block will be executed.
@@ -207,7 +209,9 @@ console.log("wrong answer")
 }
 ```
 Answer - 
+
 //10
+
 //divisible by 2
 
 
@@ -232,11 +236,11 @@ console.log(text)
 ```
 
 Answer-
+
 //Looking forward to the Weekend 
 
 
-Here is a switch case with 3 different cases , the switch case as you know acts like if else statement only 
-, in this code both the cases are not full-filled so it takes default case and executes the statement in the default block and ends the program.
+Here is a switch case with 3 different cases , the switch case as you know acts like if else statement only , in this code both the cases are not full-filled so it takes default case and executes the statement in the default block and ends the program.
 
 question 4-
 ```
@@ -246,10 +250,11 @@ let price = isStudent ? 8 : isSenior ? 6 : 10
 console.log(price);  
 ```
 Answer - 
+
 // 6
 
 We can nest ternary operators to test multiple conditions.
-Here we are testing two conditions , the first condition is false so the statement which is false expression will get executed , which is `isSenior`  and here its nested ternary operator .The `isSenior' becomes another condition and its value is true so it returns the true statement which is 6.
+Here we are testing two conditions , the first condition is false so the statement which is false expression will get executed, which is `isSenior`  and here its nested ternary operator .The `isSenior' becomes another condition and its value is true so it returns the true statement which is 6.
 
 
 
