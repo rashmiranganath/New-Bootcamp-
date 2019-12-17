@@ -4,8 +4,8 @@ For example : You want to print hello 3 times .
 	So you  will write : 
 	
 	1. console.log("hello")
-	2.console.log("hello")
-	3.console.log("hello")
+	2. console.log("hello")
+	3. console.log("hello")
 	//hello
 	//hello
 	//hello
