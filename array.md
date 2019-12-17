@@ -3,6 +3,7 @@
 In JavaScript, an array is a variable that is used to store different data types which means it basically stores different elements in one box and can be later accessed with the variable.
 
 **syntax**
+
 There are two ways to declare an array:
 ```js
 Method 1
@@ -22,6 +23,7 @@ Here we are using new Array keyword to declare it.
 ```
 
 **Accessing Array Elements**
+
 Elements of the array can be accessed through their indices or index.The index of the array starts from 0 to n number of elements.
  example :
  ```js
@@ -30,6 +32,7 @@ Elements of the array can be accessed through their indices or index.The index o
  Here i can access the first element of the array by using the array name and its index which is : `array1[0]`
 
 **Length of the array**
+
 We can get  an array's length by using the length function.
 example:
 ```js
@@ -44,18 +47,20 @@ Array length will always start from 1.If the array is empty then the length is 0
 
 
 **Why Arrays???**
+
 1. Array is an object which stores collection of different data type elements orderly.
 
 2. Helps us to access a particular element in the array.
 
 3. Can access the elements one by one using a loop.
 ```javascript
-			index = 0
-			array = [ 1, 2, 3, 4, 5, 6 ]
-            while(index < array.length) {
-		        console.log(array[index])
-		        index++
-			 }  
+	var index = 0
+	var array = [ 1, 2, 3, 4, 5, 6 ]
+	
+        while(index < array.length) {
+		console.log(array[index])
+		index++
+		}  
 Answer -
 //1 , 2 , ............ 6 
 
