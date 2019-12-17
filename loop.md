@@ -48,6 +48,8 @@ The statements of what it should really do .
 
 It is used for updating the variable for next iteration.
 
+
+
 **while loop**
 
 
@@ -74,6 +76,8 @@ while ( i < 5 )  {
 ```
 Here  `i` is a variable initialised and given the value as `zero` so as you know this is our starting point for the loop.Then there is a while condition where we are checking if our variable value is smaller than 5 , if true console the `i` , and then incrementing   the `i value`.
 
+
+
 **for loops**
 
 A  loop repeats until a specified condition evaluates to `false` .
@@ -96,6 +100,7 @@ for ( initialisation ; condition ; increment;){
 Here also same we are checking if the condition is true if true it will execute the statement and if false will come out of the loop block.
 
 **for in**
+
 
 The for in statement loops through the properties of an object.
 The block of code inside the loop will be executed once for each property.
@@ -132,6 +137,7 @@ for (let i in arr) {
 
 **for of**
 
+
 The for/of statement loops through the values of an iterable object.
 
 **syntax**
@@ -153,6 +159,7 @@ for (const value of iterable) {
 // 20
 // 30
 ```
+
 
   **do while loop**
   
