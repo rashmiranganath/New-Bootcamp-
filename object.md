@@ -41,16 +41,19 @@ greeting.test; // undefined (therefore, not object)
 ```
 
 **Creating an object**
+
 In JavaScript, an object can be created in two ways:
 
 =>**Object literal**
 The object literal is a simple way of creating an object using { } brackets. You can include key-value pair in { }, where key would be property or method name and value will be value of property of any data type or a function. Use comma (,) to separate multiple key-value pairs.
 
 **syntax**
+
 ```js
 var object-name = { key1: value1, key2: value2,... keyN: valueN};
 ```
 **example**
+
 ```js
 var emptyObject = {}; // object with no properties or methods
 
@@ -77,6 +80,7 @@ var person = {
 The second way to create an object is with Object Constructor using **new** keyword. You can attach properties and methods using dot notation. Optionally, you can also create properties using [ ] brackets and specifying property name as string.
 
 **example**
+
 ```js
 var person = new Object();
 
@@ -96,15 +100,19 @@ person.getFullName(); // James Bon
 
 
 **How to access a value of a particular key in an object**
+
 We can do this by 2 methods .
+
 => **Dot notation**
 
 **syntax**
+
 ```js
 objectName.keyName 
 ```
 
 **example**
+
 ```js
 var course = {  
 	name: "GRA 2032",  
@@ -120,10 +128,12 @@ course.name;
 Or you can use bracket notation with the name of the key inside a string inside square brackets [""]
 
 **syntax**
+
 ```js
 objectName["keyName"]
 ```
 **example**
+
 ```js
 var course = {  
 		name: "GRA 2032",  
