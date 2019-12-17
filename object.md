@@ -5,7 +5,7 @@
 - An object holds multiple values in terms of properties and methods.
 - Properties can hold values of primitive data types.
 - Functions in objects are known as methods.
-```
+```js
 var car = {
 	name  : "xyz",
 	brand : "abc",
@@ -166,7 +166,7 @@ character;
 }
 ```
 => Or you can use bracket notation with the name of the key inside a string inside square brackets [""] and an equals sign =.
-```
+```js
 **example**
 var character = {  
 		name: "Donna",  
